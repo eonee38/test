@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- No grammar constraints (DTD or XML Schema) referenced in the document. -->
+<!-- mapper DTD 선언 -->
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+  
+  
+  <!-- SQL Mapping -->
+    <mapper namespace="com.mycompany.mapper.LoginMapper"> 
+    	
+    	<insert id="memreg">
+	  		insert into member_table (id, password, name, birthday, phone, email, gender)
+	  		values(#{id}, #{password}, #{name}, #{birthday},#{phone}, #{email}, #{gender});
+  		</insert> 
+    
+    
+    
+    
+    
+    
+    
+    </mapper>
+     

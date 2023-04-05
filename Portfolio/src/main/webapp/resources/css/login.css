@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+.wrap{
+	width: 100%;
+	background-color: pink;
+}
+
+/* .form{
+	width: 20px;
+} */
+
+.loginForm{
+	width: 800px;
+	height: 500px; /* % 적용안됨? */
+	margin: 100px auto;
+/* 	margin: 300px auto; */
+	background-color: yellow;
+}
+
+
+
+.loginForm .inputV{
+	width: 280px;
+	background-color: gray;
+}
+
+.loginForm .login_btn{
+	width : 280px;
+	height: 30px;
+	color: #444444;
+	background-color: light-gray;
+	margin: 10px;
+}

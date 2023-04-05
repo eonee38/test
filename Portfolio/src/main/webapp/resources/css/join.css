@@ -1,0 +1,12 @@
+@charset "UTF-8";
+
+main .wrap{
+	width: 100%;
+	height: 500px; /* % 적용안됨? */
+	
+}
+
+.contents{
+	position: relative;
+	margin: 100px;
+}

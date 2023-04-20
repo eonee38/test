@@ -36,13 +36,15 @@ public class HomeController {
 		return "index";	// index 화면을 실행
 	}*/
 	
-	@RequestMapping(value = "/", method = RequestMethod.GET)  // http://localhost:8082"/"
+	@RequestMapping(value = "/", method = RequestMethod.GET)  // http://localhost:8080"/"
 	// 접근제어자  반환타입  메서드명(매개변수, 매개변수)
 		public String home(Locale locale, Model model) { //home 메소드 실행
 			return "index";	// /WEB-INF/views/index.jsp
 		}
+	// 상세페이지에서 home 클릭시 메인페이지로 가기
 	
 	
+
 	
 	// 상세 페이지
 		@RequestMapping(value = "/portfolio-details", method = RequestMethod.GET)

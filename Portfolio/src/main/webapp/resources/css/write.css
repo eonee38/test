@@ -1,0 +1,35 @@
+@charset "UTF-8";
+/* 글쓰기 페이지 */
+
+
+ .writeForm { 
+		width:1200px; 
+		height: 370px;
+	 	margin: 0 auto;
+	 	
+		margin-top: 80px;
+		margin-left: 19%; 
+}
+
+  #form #title_input{ /* 제목 입력 칸 */
+ 		width: 1200px;
+ 		margin-bottom: 30px;
+ 		border: 1px solid #D5D5D5;
+ 		height: 40px; 
+ }
+ 
+ /* #content_area{ 
+ 		margin: 20px;
+ 		height: 400px;
+ } */
+  
+ label{
+ 	margin: 10px;
+ 	margin-left: -2px;
+ 	font-weight: bold;
+ 	font-size: 20px;
+ }
+ 
+ .ck.ck-editor__main>.ck-editor__editable{
+ 	height: 300px; /* 글쓰기 폼 높이 조절 */
+ }

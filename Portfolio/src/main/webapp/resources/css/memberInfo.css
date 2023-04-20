@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+body{
+    width:100%;
+    background-color:var(--background-theme);
+}
+
+
+ main .Info_wrap{
+
+		width:1000px; 
+		height: 320px;
+	 	margin: 0 auto;
+	 	
+		margin-top: 120px;
+		margin-left: 30%; 
+}
+
+
+ main .Info_wrap .table_style{ width: 800px; height: 430px; border:hidden; }
+
+ main .Info_wrap .table_style input{ width: 400px;}
+
+#btns{ margin-left: 720px;}

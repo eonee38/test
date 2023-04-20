@@ -1,12 +1,123 @@
 @charset "UTF-8";
 
-main .wrap{
+/* main .wrap{
 	width: 100%;
-	height: 500px; /* % 적용안됨? */
+	height: 500px; 
 	
+} 
+	:root{
+    --background-theme:#e6e9f0;
+    --text-color:white;
+} 
+
+*/
+
+*{
+    margin:0px;
+    padding:0px;
+  	font-size: 14px; 
+    color: var(--text-color); 
+    box-sizing: border-box;
+   	/* color: black; */
+   font-family: 'Poppins', sans-serif; 
 }
 
-.contents{
-	position: relative;
-	margin: 100px;
+
+body{
+    width:100%;
+    background-color:var(--background-theme);
 }
+h1{
+    font-size: 3.2rem;
+} 
+p{
+  font-size: 1.2rem;  
+}
+
+
+/* Sections */
+.login_section{
+    min-height: 100vh;
+    display: flex;
+    align-items:center;
+    position: relative;
+    justify-content:center;
+	margin-top: 25px; /* 전체 화면에서 배치 */
+}
+
+
+
+.accounts_container{
+    height: 780px; /* 550 */
+    min-height: 780px;
+    max-height: 100%;
+    border-radius:10px;
+    box-shadow: 8px 8px 8px rgba(0,0,0,0.1);
+    background-color: #fcfcfc;
+ 	overflow: hidden; 
+}
+
+
+.accounts_image img{
+    object-fit: cover;
+    object-position: center;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+
+.accounts_col form .form-group{
+    position: relative !important;
+}
+.accounts_col form .form-control{
+    font-size: 14px;
+    padding:20px 10px;
+    margin-bottom:20px;
+    background:transparent !important;
+}
+.accounts_col form label,
+.accounts_col form .form-group i{
+    position:absolute;
+    z-index: 1;
+    pointer-events: none;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size:1rem;
+    left:10px;
+
+}
+.accounts_col form label{
+    transition: .2s linear;
+}
+.change_label{
+    background-color:#fcfcfc;
+    transition: .2s linear;
+    transform: scale(0.8);
+    top:0 !important;
+}
+.accounts_col form .form-group i{
+    left:90% !important;
+    cursor: pointer;
+    pointer-events:visible;
+}
+.register_btn{
+    padding:10px 0!important;
+    font-size: 1.3rem !important;
+    font-weight: 600 !important;
+    
+
+}
+
+.already_member_box p,
+.already_member_box span{
+    cursor: pointer;
+
+}
+
+
+
+.login_form,
+.signup_form{
+    display:none;
+}
+#to_login{font-size: 16px; margin-right: 180px; }

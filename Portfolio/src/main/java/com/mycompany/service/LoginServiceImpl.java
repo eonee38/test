@@ -16,4 +16,22 @@ public class LoginServiceImpl implements LoginService {
 		lm.memreg(member); 
 	};
 	
+	public LoginVO login (LoginVO member) {
+		System.out.println("service="+member);
+		System.out.println("service return="+ lm.login(member));
+		return lm.login(member);
+	}
+	
+	// 회원 정보 수정
+	public void memberModify(LoginVO login) {
+		lm.memberModify(login);
+	}
+	
+	
+	// 회원 정보 삭제
+	public void memberRemove(LoginVO login) {
+		lm.memberRemove(login);
+	}
+	
+	
 }

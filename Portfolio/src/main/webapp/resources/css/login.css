@@ -1,27 +1,46 @@
-@charset "UTF-8";
-
-.wrap{
-	width: 100%;
-	background-color: pink;
+ @charset "UTF-8";
+/* 없는 페이지임 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ 
+ 
+ul {
+  list-style: none;
 }
 
-/* .form{
+ a {
+  text-decoration: none;
+  color: inherit;
+} 
+
+#wrap {
+	width: 100%;
+	height: 80%;
+	margin: 0 auto;
+	/* max-width: 1500px; */
+}
+
+
+.form{
 	width: 20px;
-} */
+}
 
 .loginForm{
-	width: 800px;
-	height: 500px; /* % 적용안됨? */
-	margin: 100px auto;
-/* 	margin: 300px auto; */
-	background-color: yellow;
+	width: 400px;
+	height: 300px; /* % 적용안됨? */
+	margin: 75px auto; 
+/* 	background-color: yellow; */
 }
 
-
+.contents{ margin: 250px 250px; align: center;}
 
 .loginForm .inputV{
 	width: 280px;
-	background-color: gray;
+	margin: 4px;
+	padding-bottom: 0px;
 }
 
 .loginForm .login_btn{
@@ -30,4 +49,6 @@
 	color: #444444;
 	background-color: light-gray;
 	margin: 10px;
-}
+} 
+
+/* span{font-size: 12px; margin: 20px; margin-top: 10px;} */

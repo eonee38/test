@@ -84,8 +84,8 @@
         <div class="login">
 <!--         <input type="text" class="loginInput" />
         <input type="password" class="loginInput" /> -->
-        <input type="submit" value="login" class="memberBtn"  onclick="location.href='http://localhost:8082/portfolio/memberlogin'"/>
-        <input type="submit" value="join" class="memberBtn"   onclick="location.href='http://localhost:8082/portfolio/memberjoin'"/> 
+     <!--    <input type="submit" value="login" class="memberBtn"  onclick="location.href='http://localhost:8080/portfolio/memberlogin'"/> -->
+        <input type="submit" value="LOGIN" class="memberBtn"   onclick="location.href='http://localhost:8080/memberjoin'"/> 
         </div>
         
       </nav><!-- .navbar -->
@@ -116,7 +116,7 @@
             <h3 data-aos="fade-up">About me - Sung Eon</h3>
             <p data-aos="fade-up">
               웹 프로그래머를 꿈꾸는 이성언입니다.<br> 4차 산업혁명에 걸맞는 인재가 되고자 새로운 분야에 도전하게 되었습니다. <br> 
-            프로그래밍 신입으로서 꾸준히 빌드업해 나가고자 합니다. 프로그래머라는 마라톤을 완주하고 싶습니다.
+            프로그래밍 신입으로서 꾸준히 빌드업해 나가고자 합니다.
             </p>
             <div class="icon-box" data-aos="fade-up">
               <i class="bx bx-receipt"></i>
@@ -133,32 +133,29 @@
             <div class="icon-box" data-aos="fade-up" data-aos-delay="200">
               <i class="bx bx-cube-alt"></i>
               <h4>Motivation</h4>
-              <p>친구의 추천으로</p>
+              <p></p>
             </div>
             
             <div class="icon-box" data-aos="fade-up" data-aos-delay="200">
               <i class="bx bx-cube-alt"></i>
               <h4>남이 보는 나</h4>
-              <p>charismatic 꼼꼼함 리더십  </p>
+              <p> </p>
             </div>
             
             <div class="icon-box" data-aos="fade-up" data-aos-delay="200">
               <i class="bx bx-cube-alt"></i>
               <h4>MBTI</h4>
-              <p>ESTJ - 장단점 (단점커버 어필)</p>
+              <p>ESTJ</p>
             </div>
             
             <div class="icon-box" data-aos="fade-up" data-aos-delay="200">
               <i class="bx bx-cube-alt"></i>
               <h4>활동</h4>
               <p>역대 활동 나열</p>
-              <p>과학생회 총무 역임(꼼꼼함)/중앙동아리 회장(리더십, 타대학과 커뮤니케이션스킬)/러닝크루 운영진(화합,운영진 막내로서 윗사람들과의 교류스킬)/
-              유로드(완주)/역대 마라톤 완주(체력어필)+pt/카페매니저(꼼꼼함. 주인의식)/=> 내가 임하는 것에 대한 인정을 받고자 노력하는 사람. </p>
+              <p> </p>
             </div>
             
-            <!-- 경우의 수를 따지는 것을 좋아한다? 오류해결에 재미를 느낌. 
-            		최상의 결과물을 내고 싶다.(훌륭한 웹이란 최상의 서비스도 서비스지만, 오류가 없어야 한다고 생각. 서비스 이용에  허점이 보이면 그 순간 퀄리티는 다른 차원의 문제가 됨.)
-            	 -->
+       
 
           </div>
         </div>
@@ -224,25 +221,25 @@
               <li class="nav-item">
                 <a class="nav-link active show" data-bs-toggle="tab" href="#tab-1">
                   <h4>self-study</h4>
-                  <p>유튜브 강의</p>
+                  <p></p>
                 </a>
               </li>
               <li class="nav-item mt-2">
                 <a class="nav-link" data-bs-toggle="tab" href="#tab-2">
                   <h4>self-study</h4>
-                  <p>강의2</p>
+                  <p></p>
                 </a>
               </li>
               <li class="nav-item mt-2">
                 <a class="nav-link" data-bs-toggle="tab" href="#tab-3">
                   <h4>self-study</h4>
-                  <p>심화교재</p>
+                  <p></p>
                 </a>
               </li>
               <li class="nav-item mt-2">
                 <a class="nav-link" data-bs-toggle="tab" href="#tab-4">
                   <h4>self-study</h4>
-                  <p>블로그 정리</p>
+                  <p></p>
                 </a>
               </li>
             </ul>
@@ -695,7 +692,7 @@
 
         <div class="section-title" data-aos="fade-up">
           <h2>F.A.Q</h2>
-          <p>자기소개서</p>
+         <!--  <p>자기소개서</p> -->
         </div>
 
         <div class="faq-list">
@@ -704,8 +701,6 @@
               <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" class="collapse" data-bs-target="#faq-list-1">분야 선택 이유? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
               <div id="faq-list-1" class="collapse show" data-bs-parent=".faq-list">
                 <p>
-                 백엔드를 선택한 이유 기술하기
-                 ㅇㄹㅇㅎㅎㄴ<br><br><br><br><br><br><br>
                 </p>
               </div>
             </li>
@@ -714,7 +709,7 @@
               <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-2" class="collapsed">취미는? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
               <div id="faq-list-2" class="collapse" data-bs-parent=".faq-list">
                 <p>
-                 취미는 ~<br><br><br><br><br><br><br>
+                 
                 </p>
               </div>
             </li>
@@ -723,7 +718,7 @@
               <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-3" class="collapsed">나의 장점은? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
               <div id="faq-list-3" class="collapse" data-bs-parent=".faq-list">
                 <p>
-                제 장점은~<br><br><br><br><br><br><br>
+         
                 </p>
               </div>
             </li>
@@ -732,7 +727,7 @@
               <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-4" class="collapsed"> 나의 단점은? 그리고 단점커버는 어떻게? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
               <div id="faq-list-4" class="collapse" data-bs-parent=".faq-list">
                 <p>
-                단점은~~<br><br><br><br><br><br><br>
+            
                 
                 </p>
               </div>
@@ -742,7 +737,7 @@
               <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-5" class="collapsed">내가 가장 잘하는 것? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
               <div id="faq-list-5" class="collapse" data-bs-parent=".faq-list">
                 <p>
-                내가 가장 잘하는 것? 그리고 업무와 연계해서 풀어내기
+             
                 </p>
               </div>
             </li>
@@ -759,11 +754,11 @@
 
         <div class="section-title" data-aos="fade-up">
           <h2>Board</h2>
-          <p> 게시판 페이지 기능 구현</p>
+          <p><a href="board/list">go to Free Board</a> </p>
         </div>
         
 		<!-- ======= 게시판 리스트 =======  -->
-		<div class="BoardTable">
+		<!-- <div class="BoardTable">
 			<table class="tablelist">
 				<tr>
 					<th>no</th><th>ID</th><th>title</th><th>content</th><th>regdate</th><th>count</th>
@@ -774,7 +769,7 @@
 			
 			</table>
 		
-		</div>
+		</div> -->
 		
        <!--  <div class="row no-gutters justify-content-center" data-aos="fade-up">
 
@@ -808,7 +803,7 @@
 
         </div> -->
 
-        <div class="row mt-5 justify-content-center" data-aos="fade-up">
+       <!--  <div class="row mt-5 justify-content-center" data-aos="fade-up">
           <div class="col-lg-10">
             <form action="forms/contact.php" method="post" role="form" class="php-email-form">
               <div class="row">
@@ -834,9 +829,9 @@
             </form>
           </div>
 
-        </div>
+        </div> -->
 
-      </div>
+      </div> <!-- div: container -->
     </section> <!-- End Contact Section -->
 
   </main><!-- End #main -->

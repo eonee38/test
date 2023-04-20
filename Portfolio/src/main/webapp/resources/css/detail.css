@@ -1,0 +1,44 @@
+@charset "UTF-8";
+/* 게시글 상세 페이지 CSS */
+
+ #Board_detail { 
+		width:1200px; 
+		height: 370px;
+	 	margin: 0 auto;
+	 	
+		margin-top: 80px;
+		margin-left: 18%; 
+}
+
+ #Board_detail #title_input{		
+ 		width: 1200px;
+ 		margin-bottom: 30px;
+ 		border: 1px solid #D5D5D5;
+ 		height: 40px; 
+}
+
+.textarea{
+	border: 1px solid #D5D5D5;
+	width: 1200px;
+    height: 320px;
+    resize: none;
+}
+
+#buttonSet{
+	margin-left: 1015px;   /* 픽셀값 고정하기 */
+}
+
+#hidden_value{ width: 1px;}
+
+
+label{
+ 	margin: 10px;
+ 	margin-left: -2px;
+ 	font-weight: bold;
+ 	font-size: 20px;
+ }
+ 
+
+ .ck.ck-editor__main>.ck-editor__editable{
+ 	height: 100px;
+ }

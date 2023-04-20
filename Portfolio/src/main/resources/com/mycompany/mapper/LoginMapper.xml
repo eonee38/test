@@ -14,11 +14,29 @@
 	  		values(#{id}, #{password}, #{name}, #{birthday},#{phone}, #{email}, #{gender});
   		</insert> 
     
+    	<select id="login" resultType="com.mycompany.model.LoginVO">
+    		select id, password
+    		from member_table
+    		where id=#{id} and password=#{password}
+    	</select>
     
     
-    
-    
-    
+    	<update id="memberModify">
+    		update member_table
+    		set password = #{password},
+    			name = #{name},
+    			birthday = #{birthday},
+    			phone = #{phone},
+    			email = #{email},
+    			gender = #{gender}
+    			where id=#{id}
+    		;
+    	</update>
+    	
+    	<delete id="memberRemove">
+    	 delete from member_table where id = #{id}
+    	 ;
+    	</delete>
     
     </mapper>
      
